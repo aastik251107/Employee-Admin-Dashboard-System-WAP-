@@ -21,6 +21,31 @@
       </div>
     </section>
 
+    <section class="toolbar">
+      <div class="field">
+        <label for="search-input">Search</label>
+        <input id="search-input" type="text" placeholder="Search by name, email, or country" />
+      </div>
+
+      <div class="field">
+        <label for="country-filter">Filter by Country</label>
+        <select id="country-filter">
+          <option value="all">All Countries</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="sort-select">Sort Users</label>
+        <select id="sort-select">
+          <option value="default">Default Order</option>
+          <option value="name-asc">Name A-Z</option>
+          <option value="name-desc">Name Z-A</option>
+          <option value="country-asc">Country A-Z</option>
+          <option value="country-desc">Country Z-A</option>
+        </select>
+      </div>
+    </section>
+
     <section id="status" class="status" aria-live="polite">
       Click the button to fetch users.
     </section>
